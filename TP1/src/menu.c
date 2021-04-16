@@ -13,7 +13,7 @@
 int menu(int* estadoPrimerOperando, int* estadoSegundoOperando, int* primerNumero, int* segundoNumero) {
 	int opcion;
 
-	if (*estadoPrimerOperando == 0) {
+	if (!*estadoPrimerOperando) {
 
 		printf("*******************************\n");
 		printf("* BIENVENIDO A LA CALCULADORA *\n");
@@ -34,7 +34,7 @@ int menu(int* estadoPrimerOperando, int* estadoSegundoOperando, int* primerNumer
 		scanf("%d", &opcion);
 	}
 
-	else if (*estadoSegundoOperando == 0) {
+	else if (!*estadoSegundoOperando) {
 
 		system("cls");
 		printf("*******************************\n");

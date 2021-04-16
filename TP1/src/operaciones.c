@@ -42,8 +42,10 @@ int fact = 1;
 	if(n < 0 || n > 17){
 		fact = 0;
 	}
-    for(int i = 1; i <= n; i++){
-        fact *= i;
-    }
+	else{
+		for(int i = 1; i <= n; i++){
+			fact *= i;
+		}
+	}
     return fact;
 }
