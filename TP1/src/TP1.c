@@ -78,10 +78,10 @@ int main() {
 					printf("No es posible hacer la división.\n");
 				}
 				printf("El resultado de %d*%d es: %d\n", primerOperando, segundoOperando, rMultiplicacion);
-				if (primerOperando < 17) {
-					printf("El resultado del factorial de %d es %d \n", primerOperando, rFactorial);
-				} else {
+				if (rFactorial == 0) {
 					printf("Error al calcular el factorial.\n");
+				} else {
+					printf("El resultado del factorial de %d es %d \n", primerOperando, rFactorial);
 				}
 				flagPrimerOperando = 0;
 				flagSegundoOperando = 0;
