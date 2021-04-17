@@ -102,6 +102,6 @@ int main() {
 		system("pause");
 	} while (salida != 's');
 
-	return 0;
+	return EXIT_SUCCESS;
 }
 
